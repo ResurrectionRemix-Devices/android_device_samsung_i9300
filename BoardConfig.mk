@@ -74,7 +74,7 @@ TW_THEME := portrait_hdpi
 #RR
 TARGET_TC_ROM := 4.9-linaro
 
-TARGET_TC_KERNEL := 4.9-sm
+TARGET_TC_KERNEL := 4.9
 
 RROPTI := true
 
