@@ -82,7 +82,7 @@ TW_THEME := portrait_hdpi
 -include vendor/samsung/i9300/BoardConfigVendor.mk
 
 #RR
-TARGET_TC_ROM := 4.9-linaro
+TARGET_TC_ROM := 5.1
 
 TARGET_TC_KERNEL := 4.9
 
@@ -98,6 +98,6 @@ RR_KRAIT := false
 
 RR_PIPE := true
 
-RR_GCC_VERSION_EXP := $(TARGET_TC_ROM)
+TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
 
 RR_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
