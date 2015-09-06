@@ -81,8 +81,13 @@ TW_THEME := portrait_hdpi
 # inherit from the proprietary version
 -include vendor/samsung/i9300/BoardConfigVendor.mk
 
+
+#LZMA compression
+WITH_LZMA_OTA:= true
+
+
 #RR
-TARGET_TC_ROM := 5.1
+TARGET_TC_ROM := 5.2
 
 TARGET_TC_KERNEL := 4.9
 
